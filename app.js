@@ -4,10 +4,10 @@
   1. Replace META_PIXEL_ID with your Meta Pixel ID.
   2. Replace WORKER_URL with your Cloudflare Worker URL.
 */
-const META_PIXEL_ID = "1643034003910738";
+const META_PIXEL_ID = "1119545540609026";
 const WORKER_URL = "https://flat-thunder-e1e4.samalchinmaya612.workers.dev";
 
-if (META_PIXEL_ID !== "1643034003910738") {
+if (META_PIXEL_ID !== "1119545540609026") {
   fbq('init', META_PIXEL_ID);
   fbq('track', 'PageView');
 }
